@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            GCSE Drama
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="../buttons-hover-animation.css">
+
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="">
+
+        <style>
+
+            body {
+                margin: 0;
+                padding-top: 130px;
+                background-color: #ffbcbc;
+                font-family: Roboto, Arial;
+            }
+
+            .main {
+                background: white;
+                border: 2px solid #222;
+                border-radius: 15px;
+                padding: 30px;
+                margin: 30px 25px;
+
+                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .title {
+                font-size: 50px;
+                font-weight: 600;
+                color: #F87171;
+                text-decoration: underline;
+            }
+
+            .intro {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+            .intro1 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .quick-link-title {
+                font-weight: 600;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            .contents {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .contents a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .contents a:hover {
+                color: #ffbcbc;
+                text-decoration: underline;
+            }
+
+
+
+            .biology-websites {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .biology-websites a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .biology-websites a:hover {
+                color: #ffbcbc;
+                text-decoration: underline;
+            }
+
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            .website-table{
+                width:100%;
+                border-spacing:0 20px;
+            }
+
+            .website-name{
+                width:350px;
+                font-weight:bold;
+                font-size:20px;
+                vertical-align:top;
+                padding-right:20px;
+            }
+
+            .website-table td{
+                padding:10px;
+            }
+
+            h2,
+            .methods-title,
+            .faq-question,
+            .top3-title,
+            .youtube-title,
+            .tips-title {
+                text-align: start;
+                font-size: 30px;
+                color: #F87171;
+                scroll-margin-top: 150px;
+                margin-top: 70px;
+            }
+
+            .methods,
+            .tips,
+            .mistakes,
+            .timetable,
+            .motivation,
+            .resources,
+            .faq-answer,
+            .top3 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+
+            .spec-link,
+            .website-link,
+            .pp-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+                padding-left: 70px;
+            }
+
+            .top3-links,
+            .youtube-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            .spec-link:hover,
+            .website-link:hover,
+            .top3-links:hover,
+            .youtube-links:hover,
+            .pp-links:hover {
+                color: #ffbcbc;
+                text-decoration: underline;
+            }
+
+            .block {
+                padding-bottom: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img class="logo" src="../logo.png">
+            </div>
+
+            <div class="icons">
+                <a href="../index.html">
+                    <img class="home-icon" src="../revision-icons/home1.svg">
+                </a>
+                
+                <a href="../y11-button.html">
+                    <img class="gcse-icon" src="../revision-icons/book-icon.png">
+                </a>
+
+                <a href="../y13-button.html">
+                    <img class="alevel-icon" src="../revision-icons/cap-icon.png">
+                </a>
+                
+                <a href="../exam-stress-button.html">
+                    <img class="stress-icon" src="../revision-icons/cloud-icon.png">
+                </a>
+                
+                <a href="../how-to-revise-button.html">
+                    <img class="how-to-icon" src="../revision-icons/question-icon.png">
+                </a>
+
+                <a href="../gcse-subjects/gcse-drama.html">
+                    <img class="how-to-icon" src="../revision-icons/drama-icon-temp.webp">
+                </a>
+               
+            </div>
+        </header>
+
+        <div class="main">
+            <p class="title">GCSE Drama</p>
+
+            <p class="intro1">
+                    Below, you can find a range of resources to help you revise for your GCSE Drama exams. 
+                    These include specifications, top tips and useful websites you could use!
+            </p>
+
+             <p class="quick-link-title"> Quick links: </p>
+
+
+            <div class="contents">
+
+                <a href="#spec">Specifications</a>
+                <a href="#websites">Websites</a>
+                
+
+                <a href="#top-3">Top 3 Resources</a>
+                <a href="#youtube">YouTube Channels</a>
+                
+
+                <a href="#tips">Top Tips</a>
+                <a href="#grade-9-tips">Grade 8-9 Tips</a>
+
+
+                <a href="#must-know">Must-Know Information</a>
+                <a href="#past-papers">Past Papers</a>
+                
+
+            </div>
+
+            <div class="block">
+                <h2 id="spec">Specifications:</h2>
+                <p class="methods">
+                    Below, you can find the specifications for the GCSE Drama course. 
+                    You can find the specification for your exam board by clicking the link below!
+                    The specification contains all the information you could be tested on. Use this as
+                    a checklist (for all the information you should know for the exams.)
+                    If it's not on the specification, you don't need to know it!
+                </p>
+
+                <div class="specification-links">
+                        <a class="spec-link" href="https://www.aqa.org.uk/subjects/drama/gcse/drama-8261/specification" target="_blank">
+                            AQA Specification
+                        </a>
+
+                        <a class="spec-link" href="https://qualifications.pearson.com/en/qualifications/edexcel-gcses/drama-2016.html" target="_blank">
+                            Edexcel Specification
+                        </a>
+
+                        <a class="spec-link" href="https://www.ocr.org.uk/qualifications/gcse/drama-j316-from-2016/" target="_blank">
+                            OCR Specification
+                        </a>
+            </div>
+
+
+            <div class="block">
+                <h2 id="websites">Useful Websites:</h2>
+                <p class="intro">
+                    Below, you can find a few different websites that may be beneficial
+                    for GCSE Drama revision.
+                </p>
+
+                <table class="website-table">
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.bbc.co.uk/bitesize" target="_blank">
+                                BBC Bitesize
+                            </a>
+                        </td>
+
+                        <td>
+                            Covers drama terminology, theatre roles, performance skills and many set 
+                            texts in an easy-to-understand way.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.digitaltheatreplus.com/" target="_blank">
+                                Digital Theatre+
+                            </a>
+                        </td>
+
+                        <td>
+                            Recorded productions & analysis (school access often required).
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.dramaonlinelibrary.com/" target="_blank">
+                                Drama Online
+                            </a>
+                        </td>
+
+                        <td>
+                            Set text resources (school access often required).
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.nationaltheatre.org.uk/" target="_blank">
+                                National Theatre
+                            </a>
+                        </td>
+
+                        <td>
+                            Theatre productions, interviews and resources.
+                        </td>
+                </table>
+            </div>
+
+
+            <div class="block">
+                <h2 id="top-3">Top 3 Resources:</h2>
+                <p class="intro">
+                    Below, you can find my top 3 resources for GCSE Drama revision. These are the
+                    resources I found through research as I did not take GCSE Drama myself.
+                    You may find other resources more useful for your revision!
+                </p>
+
+                <p class="top3-title">
+                    1. BBC Bitesize
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://www.bbc.co.uk/bitesize/subjects/zk6pyrd" target="_blank">BBC Bitesize</a>
+                    covers drama terminology, theatre roles, 
+                    performance skills and many set texts in an easy-to-understand way.
+                </p>
+
+                <p class="top3-title">
+                    2. National Theatre
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://www.nationaltheatre.org.uk/" target="_blank">National Theatre</a>
+                     provides theatre productions, interviews and resources.
+                </p>
+                
+
+                <p class="top3-title">
+                    3. Digital Theatre+
+                </p>
+
+                <p class="top3">
+                    For
+                    <a class="top3-links" href="https://www.digitaltheatreplus.com/" target="_blank">Digital Theatre+</a>
+                     , many schools provide free access. Includes recorded productions, 
+                     interviews and study resources.
+                </p>
+            </div>
+
+
+            <div class="block">
+                <h2 id="youtube">YouTube Channels:</h2>
+                <p class="intro">
+                    If you're looking for some Youtube channels to help you revise, 
+                    below are a few I found during my research. You may find other channels 
+                    more useful!
+                </p>
+
+                <p class="youtube-title">
+                    1. National Theatre
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/channel/UCUDq1XzCY0NIOYVJvEMQjqw" target="_blank">
+                     National Theatre
+                    </a>
+                    provides professional performances, backstage videos and acting advice.
+                </p>
+
+                <p class="youtube-title">
+                    2. Digital Theatre+
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@DigitalTheatrePlus" target="_blank">
+                     Digital Theatre+
+                    </a>
+                    provides interviews, performance clips and theatre analysis.
+                </p>
+
+                <p class="youtube-title">
+                    3. Royal Shakespeare Company
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@theRSC" target="_blank">
+                     Royal Shakespeare Company
+                    </a>
+                    is a channel that may be very useful if your set text is Shakespeare.
+                </p>
+
+                <p class="youtube-title">
+                    4. Mr Salles Teaches English (if studying a play shared with English)
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@MrSallesTeachesEnglish" target="_blank">
+                     Mr Salles Teaches English
+                    </a>
+                    
+                    can provide useful analysis of plays like An Inspector Calls or Macbeth if they're also your Drama set text.
+                </p>
+
+                <p class="youtube-title">
+                    5. Drama Dan
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@DramaDan" target="_blank">
+                     Drama Dan
+                    </a>
+                    
+                    has many videos on acting techniques, performance skills and theatre analysis.
+                </p>
+
+
+            </div>
+
+            <div class="block">
+                <h2 id="tips">Top Tips:</h2>
+
+                <p class="intro">
+                    &#183; Learn your drama terminology—using technical vocabulary earns marks.
+                </p>
+
+                <p class="intro">
+                    &#183; When analysing acting, always explain 
+                    <strong>how</strong> a technique communicates meaning.
+                </p>
+
+                <p class="intro">
+                    &#183; Revise using videos of live performances, not just scripts.
+                </p>
+
+                <p class="intro">
+                    &#183; Know your set text inside out—quotes, stage directions and key moments.
+                </p>
+
+                <p class="intro">
+                    &#183; Always justify your ideas. Don't just say "I'd use lighting". Explain why.
+                </p>
+
+                <p class="intro">
+                    &#183; Put energy and emotion into your acting. Don't just say "I'd be sad". 
+                    Show it through your performance.
+                </p>
+
+            </div>
+
+
+
+
+            <div class="block">
+                <h2 id="grade-9-tips">Grade 8/9 Tips:</h2>
+
+                <p class="intro">
+                    Below, you can find a few tips to help you achieve a grade 8 or 9 (
+                        equivalent of A or A*) in Drama!
+                </p>
+
+                <p class="intro">
+                    &#183; Use precise theatrical vocabulary naturally throughout your answers.
+                </p>
+
+                <p class="intro">
+                    &#183; Link every acting or design choice back to the audience's response.
+                </p>
+
+                <p class="intro">
+                    &#183; Compare different staging ideas rather than describing just one.
+                </p>
+
+                <p class="intro">
+                    &#183; Think like a director. 
+                    Explain why every movement, lighting cue, costume or sound effect has been chosen and
+                    what it conveys.
+                </p>
+
+            </div>
+
+            <div class="block">
+                <h2 id="must-know">Must-Know Information:</h2>
+
+                <p class="intro">
+                    Below, you can find a small checklist of must-know information for GCSE Drama.
+                    These topics are commonly tested in the exams and may get you a few easy marks.
+                </p>
+
+                <p class="intro">
+                    &#183; The differences between physical, vocal and facial acting skills.
+                </p>
+
+                <p class="intro">
+                    &#183; Key stage positions (upstage, downstage, stage left, stage right, centre stage).
+                </p>
+
+                <p class="intro">
+                    &#183; Theatre terminology (blocking, proxemics, levels, pace, pause, gesture, 
+                    mime, tableau).
+                </p>
+
+                <p class="intro">
+                    &#183; The purpose of lighting, sound, costume, set and props.
+                </p>
+
+                <p class="intro">
+                    &#183; Your <strong>set text</strong> (characters, themes, key scenes and important quotations).
+                </p>
+
+                <p class="intro">
+                    &#183; Your <strong>live theatre evaluation</strong> (acting, design and audience impact).
+                </p>
+
+                <p class="intro">
+                    &#183; How to explain the effect on the audience.
+                </p>
+
+                <p class="intro">
+                    &#183; Different performance styles 
+                    (e.g. naturalism, physical theatre, Brecht, Frantic Assembly, etc... depending on your course).
+                </p>
+
+                <p class="intro">
+                    &#183; The roles of theatre professionals 
+                    (director, designer, lighting designer, stage manager, costume designer).
+                </p>
+
+                <p class="intro">
+                    &#183; How to structure extended exam answers using evidence and drama terminology.
+                </p>
+            </div>
+
+            <div class="block">
+                <h2 id="past-papers">Past Papers:</h2>
+
+                <p class="intro">
+                    Below, I've relinked the websites to access past papers and mark schemes 
+                    for your exam board. These are the best resources to use to practice exam 
+                    questions. 
+                </p>
+
+                <a class="pp-links" href="https://revisionworld.com/" target="_blank">RevisionWorld</a>
+                <a class="pp-links" href="https://www.savemyexams.com/" target="_blank">Save My Exams</a>
+                <a class="pp-links" href="https://www.physicsandmathstutor.com/" target="_blank">Physics & Maths Tutor</a>
+                <a class="pp-links"  href="https://latestexampapers.com/" target="_blank">Latest Exam Papers</a>
+
+            
+
+            

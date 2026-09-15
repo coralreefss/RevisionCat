@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            GCSE History
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="../buttons-hover-animation.css">
+
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="">
+
+        <style>
+
+            body {
+                margin: 0;
+                padding-top: 130px;
+                background-color: #b7ffc3;
+                font-family: Roboto, Arial;
+            }
+
+            .main {
+                background: white;
+                border: 2px solid #222;
+                border-radius: 15px;
+                padding: 30px;
+                margin: 30px 25px;
+
+                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .title {
+                font-size: 50px;
+                font-weight: 600;
+                color: #34df4b;
+                text-decoration: underline;
+            }
+
+            .intro {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+            .intro1 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .quick-link-title {
+                font-weight: 600;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            .contents {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .contents a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .contents a:hover {
+                color:  #b7ffc3;
+                text-decoration: underline;
+            }
+
+
+
+            .biology-websites {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .biology-websites a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .biology-websites a:hover {
+                color: #b7ffc3;
+                text-decoration: underline;
+            }
+
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            .website-table{
+                width:100%;
+                border-spacing:0 20px;
+            }
+
+            .website-name{
+                width:350px;
+                font-weight:bold;
+                font-size:20px;
+                vertical-align:top;
+                padding-right:20px;
+            }
+
+            .website-table td{
+                padding:10px;
+            }
+
+            h2,
+            .methods-title,
+            .faq-question,
+            .top3-title,
+            .youtube-title,
+            .tips-title {
+                text-align: start;
+                font-size: 30px;
+                color: #34df4b;
+                scroll-margin-top: 150px;
+                margin-top: 70px;
+            }
+
+            .methods,
+            .tips,
+            .mistakes,
+            .timetable,
+            .motivation,
+            .resources,
+            .faq-answer,
+            .top3 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+
+            .spec-link,
+            .website-link,
+            .pp-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+                padding-left: 70px;
+            }
+
+            .top3-links,
+            .youtube-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            .spec-link:hover,
+            .website-link:hover,
+            .top3-links:hover,
+            .youtube-links:hover,
+            .pp-links:hover {
+                color:#b7ffc3;
+                text-decoration: underline;
+            }
+
+            .block {
+                padding-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img class="logo" src="../logo.png">
+            </div>
+
+            <div class="icons">
+                <a href="../index.html">
+                    <img class="home-icon" src="../revision-icons/home1.svg">
+                </a>
+                
+                <a href="../y11-button.html">
+                    <img class="gcse-icon" src="../revision-icons/book-icon.png">
+                </a>
+
+                <a href="../y13-button.html">
+                    <img class="alevel-icon" src="../revision-icons/cap-icon.png">
+                </a>
+                
+                <a href="../exam-stress-button.html">
+                    <img class="stress-icon" src="../revision-icons/cloud-icon.png">
+                </a>
+                
+                <a href="../how-to-revise-button.html">
+                    <img class="how-to-icon" src="../revision-icons/question-icon.png">
+                </a>
+
+                <a href="../gcse-subjects/gcse-history.html">
+                    <img class="how-to-icon" src="../revision-icons/biology-icon-temp.webp">
+                </a>
+               
+            </div>
+        </header>
+
+        <div class="main">
+            <p class="title">GCSE History</p>
+
+            <p class="intro1">
+                    Below, you can find a range of resources to help you revise for your GCSE History exams. 
+                    These include specifications, top tips and useful websites you could use!
+            </p>
+
+             <p class="quick-link-title"> Quick links: </p>
+
+
+            <div class="contents">
+
+                <a href="#spec">Specifications</a>
+                <a href="#websites">Websites</a>
+                
+
+                <a href="#top-3">Top 3 Resources</a>
+                <a href="#youtube">YouTube Channels</a>
+                
+
+                <a href="#tips">Top Tips</a>
+                <a href="#grade-9-tips">Grade 8-9 Tips</a>
+
+
+                <a href="#must-know">Must-Know Information</a>
+                <a href="#past-papers">Past Papers</a>
+                
+
+            </div>
+
+            <div class="block">
+                <h2 id="spec">Specifications:</h2>
+                <p class="methods">
+                    Below, you can find the specifications for the GCSE History course. 
+                    You can find the specification for your exam board by clicking the link below!
+                    The specification contains all the information you could be tested on. Use this as
+                    a checklist (for all the information you should know for the exams.)
+                    If it's not on the specification, you don't need to know it!
+                </p>
+
+                 <p class="methods">
+                    Please also check your exact specification with your teacher, as some courses may have many
+                    different specifications with slightly differing content.
+                </p>
+
+
+                <div class="specification-links">
+                        <a class="spec-link" href="https://www.aqa.org.uk/subjects/history/gcse/history-8132/specification" target="_blank">
+                            AQA Specification
+                        </a>
+
+                        <a class="spec-link" href="https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf" target="_blank">
+                            Edexcel Specification
+                        </a>
+            </div>
+
+
+            <div class="block">
+                <h2 id="websites">Useful Websites:</h2>
+                <p class="intro">
+                    Below, you can find a few different websites that may be beneficial
+                    for GCSE History revision.
+                </p>
+
+                <table class="website-table">
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.bbc.co.uk/bitesize/subjects/zj26n39" target="_blank">
+                                BBC Bitesize
+                            </a>
+                        </td>
+
+                        <td>
+                            Clear explanations of historical events, periods and people.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.physicsandmathstutor.com/past-papers/gcse-history/" target="_blank">
+                                Physics and Maths Tutor (PMT)
+                            </a>
+                        </td>
+
+                        <td>
+                            Past papers, questions and notes.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.savemyexams.com/gcse/history/" target="_blank">
+                                Save My Exams
+                            </a>
+                        </td>
+
+                        <td>
+                            Structured revision notes and exam practice.
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.nationalarchives.gov.uk/education/" target="_blank">
+                                National Archives Education
+                            </a>
+                        </td>
+
+                        <td>
+                            Excellent primary sources and historical documents.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.historylearning.com/" target="_blank">
+                                History Learning Site
+                            </a>
+                        </td>
+
+                        <td>
+                            Background information on lots of historical periods and events.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="block">
+                <h2 id="top-3">Top 3 Resources:</h2>
+                <p class="intro">
+                    Below, you can find my top 3 resources for GCSE History. These are the
+                    resources I found through research as I did not take History myself.
+                    You may find other resources that are more useful for your revision!
+                </p>
+
+                <p class="top3-title">
+                    1. BBC Bitesize
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://www.bbc.co.uk/bitesize/subjects/zj26n39" target="_blank">BBC Bitesize</a>
+                    is a very useful resource for GCSE History.
+                    As mentioned above, it provides podcasts and videos for lots of historical topics. 
+                    It also has quizzes and questions to test your knowledge.
+                </p>
+
+                <p class="top3-title">
+                    2. Physics and Maths Tutor (PMT)
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://www.physicsandmathstutor.com/past-papers/gcse-history/" target="_blank">PMT</a>
+                     was a very helpful resource too. Here is a bank of past papers and mark schemes.
+                     Particularly useful once you've learnt the content.
+                </p>
+
+                <p class="top3-title">
+                    3. KnowUnity
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://knowunity.com/knowledge/history" target="_blank">KnowUnity</a>
+                    can be very useful for notes or diagrams provided by teachers or other students. Just ensure that 
+                    you check the information is correct and relevant to your exam board.
+                    
+                </p>
+            </div>
+
+
+            <div class="block">
+                <h2 id="youtube">YouTube Channels:</h2>
+                <p class="intro">
+                    If you're looking for some Youtube channels to help you revise, 
+                    below are a few I found through research for GCSE History.
+                </p>
+
+                <p class="youtube-title">
+                    1.  History with Hilbert
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@historywithhilbert" target="_blank">
+                     History with Hilbert
+                    </a>
+                    provides a wide variety of videos on different historical topics and events. 
+                    The videos are clear and concise, and quite short.
+                </p>
+
+                <p class="youtube-title">
+                    2. Simple History
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@Simplehistory" target="_blank">
+                     Simple History
+                    </a>
+                    is another channel you may find useful for revising History. They also provide animated videos
+                    on a wide range of historical topics. This channel is great for getting the "big picture" of historical events.
+
+                <p class="youtube-title">
+                    3. Oversimplified
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@Oversimplified" target="_blank">
+                    Oversimplified
+                    </a>
+                    is another channel you may find useful. They are not GCSE-specific, but they provide entertaining and 
+                    informative videos on historical events. It is great for making major historical events more memorable and 
+                    easier to understand.
+                </p>
+
+                <p class="youtube-title">
+                    4. Horrible Histories
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@HorribleHistories" target="_blank">
+                    Horrible Histories
+                    </a>
+                    is another channel you may find useful. While it is a children's channel and TV show, it provides entertaining and 
+                    informative content on historical events. Plus, the songs could help with remembering facts!
+                </p>
+            </div>
+
+            <div class="block">
+                <h2 id="tips">Top Tips:</h2>
+
+                <p class="intro">
+                    &#183; Make timelines. History becomes much easier when you know what happened before and after something.
+                    You can also find timetables on KnowUnity.
+                </p>
+
+                <p class="intro">
+                    &#183; Learn causes and consequences. Don't just memorise what happened.
+                </p>
+
+                <p class="intro">
+                    &#183; Know turning points. Understand why an event was significant.
+                </p>
+
+                <p class="intro">
+                    &#183; Learn specific evidence. Names, dates, statistics, laws, events and examples can strengthen answers.
+                </p>
+
+                <p class="intro">
+                    &#183; Don't learn every date ever. Prioritise dates that help establish chronology or are particularly significant.
+                </p>
+
+                <p class="intro">
+                    &#183; Do timed essays. Knowing the history is useless if you can't get it onto the page in the time.
+                </p>
+
+                <p class="intro">
+                    &#183; Build chains of reasoning.
+
+            </div>
+
+
+
+
+            <div>
+                <h2 id="grade-9-tips">Grade 8/9 Tips:</h2>
+
+                <p class="intro">
+                    Below, you can find a few tips to help you achieve a grade 8 or 9 (
+                        equivalent of A or A*) in History.
+                </p>
+
+                <p class="intro">
+                    &#183; Be precise with evidence
+                </p>
+
+                <p class="intro">
+                    &#183; Build developed explanations.
+                </p>
+
+                <p class="intro">
+                    &#183; Make comparisons. For questions asking about factors, don't treat each factor like a completely separate mini-essay.
+                    Compare them: "Factor A was important because..., however Factor B had a greater impact because..."
+                </p>
+
+                <p class="intro">
+                    &#183; Understand interpretations.
+                </p>
+
+                <p class="intro">
+                    &#183; Analyse sources rather than describing them
+
+                <p class="intro">
+                    &#183; For Ancient History, know the society as well as the events. 
+                    If your Ancient topic involves a civilisation such as Rome, Greece or Egypt, don't only learn battles
+                     and rulers. Also learn about the society, culture, religion and everyday life. 
+                </p>
+
+            </div>
+
+            <div class="block">
+                <h2 id="must-know">Must-Know Information:</h2>
+
+                <p class="intro">
+                    Below, you can find a small checklist of must-know information for GCSE History.
+                    The specific events, people and periods you need to learn will depend on your exam board and chosen topics.
+                </p>
+
+                <p class="intro">
+                    &#183; The chronological order of the main events in each of your History topics.
+                </p>
+
+                <p class="intro">
+                    &#183; The key people, groups and organisations involved in each historical period.
+                </p>
+
+                <p class="intro">
+                    &#183; The main causes of important historical events.
+                </p>
+
+                <p class="intro">
+                    &#183; The short-term and long-term consequences of important events.
+                </p>
+
+                <p class="intro">
+                    &#183; The significance of major events and turning points.
+                </p>
+
+                <p class="intro">
+                    &#183; Important dates, laws, treaties, battles and political developments.
+                </p>
+
+                <p class="intro">
+                    &#183; The political, social, economic and religious factors affecting each period.
+                </p>
+
+                <p class="intro">
+                    &#183; The beliefs, attitudes and experiences of different groups within society.
+                </p>
+
+                <p class="intro">
+                    &#183; Change and continuity over time.
+                </p>
+
+                <p class="intro">
+                    &#183; Similarities and differences between people, events and historical periods.
+                </p>
+
+                <p class="intro">
+                    &#183; Key terminology specific to each historical topic.
+                </p>
+
+                <p class="intro">
+                    &#183; How to use specific historical evidence to support an argument.
+                </p>
+
+                <p class="intro">
+                    &#183; How to explain the importance of a historical factor rather than simply describing it.
+                </p>
+
+                <p class="intro">
+                    &#183; How to compare different factors and reach a supported judgement.
+                </p>
+
+                <p class="intro">
+                    &#183; How to analyse the content and provenance of historical sources.
+                </p>
+
+                <p class="intro">
+                    &#183; How to explain why a source may be useful or limited.
+                </p>
+
+                <p class="intro">
+                    &#183; How to identify and analyse different historical interpretations.
+                </p>
+
+                <p class="intro">
+                    &#183; How to support or challenge an interpretation using your own historical knowledge.
+                </p>
+
+                <p class="intro">
+                    &#183; How to structure extended History answers using clear points, evidence and explanations.
+                </p>
+
+                <p class="intro">
+                    &#183; How to reach a clear, justified judgement in questions that require evaluation.
+                </p>
+            </div>
+
+            <div class="block">
+                <h2 id="past-papers">Past Papers:</h2>
+
+                <p class="intro">
+                    Below, I've relinked the websites to access past papers and mark schemes 
+                    for your exam board. These are the best resources to use to practice exam 
+                    questions. 
+                </p>
+
+                <a class="pp-links" href="https://revisionworld.com/" target="_blank">RevisionWorld</a>
+                <a class="pp-links" href="https://www.savemyexams.com/" target="_blank">Save My Exams</a>
+                <a class="pp-links" href="https://www.physicsandmathstutor.com/" target="_blank">Physics & Maths Tutor</a>
+                <a class="pp-links"  href="https://latestexampapers.com/" target="_blank">Latest Exam Papers</a>
+
+            
+
+            

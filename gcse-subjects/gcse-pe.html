@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            GCSE PE
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="../buttons-hover-animation.css">
+
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="">
+
+        <style>
+
+            body {
+                margin: 0;
+                padding-top: 130px;
+                background-color: #ffbcbc;
+                font-family: Roboto, Arial;
+            }
+
+            .main {
+                background: white;
+                border: 2px solid #222;
+                border-radius: 15px;
+                padding: 30px;
+                margin: 30px 25px;
+
+                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .title {
+                font-size: 50px;
+                font-weight: 600;
+                color: #F87171;
+                text-decoration: underline;
+            }
+
+            .intro {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+            .intro1 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .quick-link-title {
+                font-weight: 600;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            .contents {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .contents a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .contents a:hover {
+                color: #ffbcbc;
+                text-decoration: underline;
+            }
+
+
+
+            .biology-websites {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .biology-websites a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .biology-websites a:hover {
+                color: #ffbcbc;
+                text-decoration: underline;
+            }
+
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            .website-table{
+                width:100%;
+                border-spacing:0 20px;
+            }
+
+            .website-name{
+                width:350px;
+                font-weight:bold;
+                font-size:20px;
+                vertical-align:top;
+                padding-right:20px;
+            }
+
+            .website-table td{
+                padding:10px;
+            }
+
+            h2,
+            .methods-title,
+            .faq-question,
+            .top3-title,
+            .youtube-title,
+            .tips-title {
+                text-align: start;
+                font-size: 30px;
+                color: #F87171;
+                scroll-margin-top: 150px;
+                margin-top: 70px;
+            }
+
+            .methods,
+            .tips,
+            .mistakes,
+            .timetable,
+            .motivation,
+            .resources,
+            .faq-answer,
+            .top3 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+
+            .spec-link,
+            .website-link,
+            .pp-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+                padding-left: 70px;
+            }
+
+            .top3-links,
+            .youtube-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            .spec-link:hover,
+            .website-link:hover,
+            .top3-links:hover,
+            .youtube-links:hover,
+            .pp-links:hover {
+                color: #ffbcbc;
+                text-decoration: underline;
+            }
+
+            .block {
+                padding-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img class="logo" src="../logo.png">
+            </div>
+
+            <div class="icons">
+                <a href="../index.html">
+                    <img class="home-icon" src="../revision-icons/home1.svg">
+                </a>
+                
+                <a href="../y11-button.html">
+                    <img class="gcse-icon" src="../revision-icons/book-icon.png">
+                </a>
+
+                <a href="../y13-button.html">
+                    <img class="alevel-icon" src="../revision-icons/cap-icon.png">
+                </a>
+                
+                <a href="../exam-stress-button.html">
+                    <img class="stress-icon" src="../revision-icons/cloud-icon.png">
+                </a>
+                
+                <a href="../how-to-revise-button.html">
+                    <img class="how-to-icon" src="../revision-icons/question-icon.png">
+                </a>
+
+                <a href="../gcse-subjects/gcse-pe.html">
+                    <img class="how-to-icon" src="../revision-icons/biology-icon-temp.webp">
+                </a>
+               
+            </div>
+        </header>
+
+        <div class="main">
+            <p class="title">GCSE PE</p>
+
+            <p class="intro1">
+                    Below, you can find a range of resources to help you revise for your GCSE PE exams. 
+                    These include specifications, top tips and useful websites you could use!
+            </p>
+
+             <p class="quick-link-title"> Quick links: </p>
+
+
+            <div class="contents">
+
+                <a href="#spec">Specifications</a>
+                <a href="#websites">Websites</a>
+                
+
+                <a href="#top-3">Top 3 Resources</a>
+                <a href="#youtube">YouTube Channels</a>
+                
+
+                <a href="#tips">Top Tips</a>
+                <a href="#grade-9-tips">Grade 8-9 Tips</a>
+
+
+                <a href="#must-know">Must-Know Information</a>
+                <a href="#past-papers">Past Papers</a>
+                
+
+            </div>
+
+            <div class="block">
+                <h2 id="spec">Specifications:</h2>
+                <p class="methods">
+                    Below, you can find the specifications for the GCSE PE course. 
+                    You can find the specification for your exam board by clicking the link below!
+                    The specification contains all the information you could be tested on. Use this as
+                    a checklist (for all the information you should know for the exams.)
+                    If it's not on the specification, you don't need to know it!
+                </p>
+
+                <div class="specification-links">
+                        <a class="spec-link" href="https://www.aqa.org.uk/subjects/pe/gcse/pe-8601/specification" target="_blank">
+                            AQA Specification
+                        </a>
+
+                        <a class="spec-link" href="https://qualifications.pearson.com/en/qualifications/edexcel-gcses/physical-education-2016.html" target="_blank">
+                            Edexcel Specification
+                        </a>
+
+                        <a class="spec-link" href="https://www.ocr.org.uk/Images/234827-gcse-guide-to-non-exam-assessment-final-assessment-2026.pdf/" target="_blank">
+                            OCR Specification
+                        </a>
+            </div>
+
+
+            <div class="block">
+                <h2 id="websites">Useful Websites:</h2>
+                <p class="intro">
+                    Below, you can find a few different websites that may be beneficial
+                    for GCSE PE revision.
+                </p>
+
+                <table class="website-table">
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.bbc.co.uk/bitesize/subjects/znyb4wx" target="_blank">
+                                BBC Bitesize
+                            </a>
+                        </td>
+
+                        <td>
+                            Includes notes, videos and quizzes to help you revise or understand content.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://theeverlearner.com/" target="_blank">
+                                The Everlearner
+                            </a>
+                        </td>
+
+                        <td>
+                            Revision videos & exam practice (requires school subscription).
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://getrevising.co.uk/resources/level/gcse/subjects/physical_education" target="_blank">
+                                Get Revising
+                            </a>
+                        </td>
+
+                        <td>
+                            Notes and flashcards shared from teachers and other students.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://senecalearning.com/en-gb/" target="_blank">
+                                Seneca Learning
+                            </a>
+                        </td>
+
+                        <td>
+                            Interaction quizzes and revision.
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div class="block">
+                <h2 id="top-3">Top 3 Resources:</h2>
+                <p class="intro">
+                    Below, you can find my top 3 resources for GCSE PE revision. These are the
+                    resources I found through research as I didn't take GCSE PE myself.
+                    You may find other resources more useful for your revision!
+                </p>
+
+                <p class="top3-title">
+                    1. BBC Bitesize
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://www.bbc.co.uk/bitesize/subjects/znyb4wx" target="_blank">BBC Bitesize</a>
+                    covers all the major GCSE PE topics with clear explanations, diagrams and quizzes.
+                </p>
+
+                <p class="top3-title">
+                    2. The Everlearner
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://www.youtube.com/@TheEverLearner" target="_blank">The Everlearner</a>
+                     provides revision videos, topic summaries and exam technique. (Some content is paid, but their
+                     YouTube channel is free).
+
+                <p class="top3-title">
+                    3. Get Revising
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://getrevising.co.uk/resources/level/gcse/subjects/physical_education" target="_blank">BBC Bitesize</a>
+                    provides useful notes, flashcards and practice resources made specifically for GCSE PE. You can also
+                    select your exam board to get content specific to your course.
+                </p>
+            </div>
+
+
+            <div class="block">
+                <h2 id="youtube">YouTube Channels:</h2>
+                <p class="intro">
+                    If you're looking for some Youtube channels to help you revise, 
+                    below are a few I found through some research. You may find other channels
+                    better or more useful!
+                </p>
+
+                <p class="youtube-title">
+                    1. The Everlearner
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/channel/UCaGEe4KXZrjou9kQx6ezG2w" target="_blank">
+                     The Everlearner
+                    </a>
+                    , as mentioned above, provides useful notes, flashcards and practice resources 
+                    made specifically for GCSE PE. You can also
+                    select your exam board to get content specific to your course.
+                </p>
+
+                <p class="youtube-title">
+                    2. Planet PE
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@PlanetPEgcsepe" target="_blank">
+                     Planet PE
+                    </a>
+                    is another channel that provides topic-by-topic explanations and revision. His resources
+                    are completely free! He also does frequent livestreams.
+                </p>
+
+                <p class="youtube-title">
+                    3. Mr Wnuk PE
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@guythescud" target="_blank">
+                     Mr Wnuk PE
+                    </a>
+                    provides full paper and last minute revision videos. 
+                </p>
+
+                <p class="youtube-title">
+                    4. ScienceShorts
+                </p>
+
+            </div>
+
+            <div class="block">
+                <h2 id="tips">Top Tips:</h2>
+
+                <p class="intro">
+                    &#183; Learn the key definitions. They're worth easy marks.
+                </p>
+
+                <p class="intro">
+                    &#183; Don't just memorise body systems, understand <strong>how</strong> they work during exercise.
+                </p>
+
+                <p class="intro">
+                    &#183; Practise interpreting graphs and fitness test results.
+                </p>
+
+                <p class="intro">
+                    &#183; Revise using diagrams of the heart, lungs and muscles.
+                </p>
+
+                <p class="intro">
+                    &#183; Learn sporting examples for every topic. You'll need them in longer questions.
+                </p>
+
+            </div>
+
+
+
+
+            <div>
+                <h2 id="grade-9-tips">Grade 8/9 Tips:</h2>
+
+                <p class="intro">
+                    Below, you can find a few tips to help you achieve a grade 8 or 9 (
+                        equivalent of A or A*) in PE!
+                </p>
+
+                <p class="intro">
+                    &#183; Use accurate scientific vocabulary throughout your answers.
+                </p>
+
+                <p class="intro">
+                    &#183; Always apply your knowledge to the sport mentioned in the question.
+                </p>
+
+                <p class="intro">
+                    &#183; Practice 6 markers regularly. 
+                </p>
+
+                <p class="intro">
+                    &#183; Explain <strong>why</strong>, not just what.
+                </p>
+
+                <p class="intro">
+                    &#183; Memorise all required fitness tests and what they measure.
+                </p>
+
+                
+
+            </div>
+
+            <div class="block">
+                <h2 id="must-know">Must-Know Information:</h2>
+
+                <p class="intro">
+                    Below, you can find a small checklist of must-know information for GCSE PE.
+                    These topics are commonly tested in the exams and may get you a few easy marks.
+                </p>
+
+                <p class="intro">
+                    &#183; The components of fitness (speed, strength, power, flexibility, balance, 
+                    coordination, agility, reaction time, cardiovascular endurance and muscular endurance).
+                </p>
+
+                <p class="intro">
+                    &#183; The differences between the <strong>aerobic and anaerobic energy</strong> systems.
+                </p>
+
+                <p class="intro">
+                    &#183; The structure and function of the heart, lungs and circulatory system.
+                </p>
+
+                <p class="intro">
+                    &#183; The major muscles and bones in the body.
+                </p>
+
+                <p class="intro">
+                    &#183; The different types of movement (flexion, extension, 
+                    abduction, adduction, rotation and circumduction).
+                </p>
+
+                <p class="intro">
+                    &#183; The principles of training (SPORT & FITT).
+                </p>
+
+                <p class="intro">
+                    &#183; Methods of training (continuous, interval, fartlek, circuit, weight and plyometric training).
+                </p>
+
+                <p class="intro">
+                    &#183; Fitness testing (purpose, procedure and advantages/disadvantages of each test).
+                </p>
+
+                <p class="intro">
+                    &#183; The effects of exercise on the body (heart rate, breathing rate, stroke volume and recovery).
+                </p>
+
+                <p class="intro">
+                    &#183; Sports psychology (motivation, guidance, feedback, arousal and goal setting).
+                </p>
+
+                <p class="intro">
+                    &#183; Socio-cultural influences (participation, barriers, sponsorship, media and commercialisation).
+                </p>
+            </div>
+
+            <div class="block">
+                <h2 id="past-papers">Past Papers:</h2>
+
+                <p class="intro">
+                    Below, I've relinked the websites to access past papers and mark schemes 
+                    for your exam board. These are the best resources to use to practice exam 
+                    questions. 
+                </p>
+
+                <a class="pp-links" href="https://revisionworld.com/" target="_blank">RevisionWorld</a>
+                <a class="pp-links" href="https://www.savemyexams.com/" target="_blank">Save My Exams</a>
+                <a class="pp-links" href="https://www.physicsandmathstutor.com/" target="_blank">Physics & Maths Tutor</a>
+                <a class="pp-links"  href="https://latestexampapers.com/" target="_blank">Latest Exam Papers</a>
+
+            
+
+            

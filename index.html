@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RevisionCat
+        </title>
+
+        <link rel="stylesheet" href="buttons-hover-animation.css">
+    
+        <style>
+
+            body {
+                background-color: #F5F7FA;
+                padding-top: 130px; 
+                height: 730px;
+
+                display: flex;
+                flex-direction: column;
+            }
+
+            .footer {
+                margin-top: auto;
+            }
+
+
+
+            .y9-button,
+            .y10-button,
+            .y11-button,
+            .y12-button,
+            .y13-button,
+            .exam-button,
+            .how-to-button {
+                height: 100px;
+                width: 250px;
+                margin: 20px;
+                cursor: pointer;
+            }
+
+            .general-faq {
+                height: 100px;
+                width: 400px;
+                margin: 20px;
+                cursor: pointer;
+            }
+
+
+            .y9-button:active,
+            .y10-button:active,
+            .y11-button:active,
+            .y12-button:active,
+            .y13-button:active,
+            .exam-button:active,
+            .how-to-button:active,
+            .general-faq:active,
+            .about-me:active {
+                transform: rotateY(180deg);
+                transition: 0.5s
+            }
+
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                position: relative;
+                position: fixed;
+
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                z-index: 100;
+
+                height: 120px;
+                background-color: #F5F7FA;
+                border: 2px solid black;
+                margin-bottom: 75px;
+            }
+
+            .logo {
+                position: absolute;
+                left: 20px;
+                top: -18px;
+                width: 150px;
+                height: auto;
+                cursor: pointer;
+            }
+
+            .title {
+                max-height: 200px;
+                width: auto;
+                padding-top: 10px;
+                transition: 0.2ss
+            }
+
+            .title:hover {
+                transform: scale(1.15);
+                transition: 0.4s;
+            }
+
+            .footer {
+                margin-top: 250px;
+                background-color: #e0e0e0;
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+                text-align: center;
+                padding: 5px;
+                font-family: Arial, sans-serif;
+                color: #555;
+                font-size: 16px;
+            }
+
+            .footer p {
+                margin: 10px 0;
+            }
+
+            .lower-year-group-buttons {
+                margin-top: 50px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="left">
+            <img class="logo"src="logo.png">
+            </div>
+
+
+            <div class="right">
+                <img class="title" src="title-grey-black.png">
+            </div>
+
+        </div>
+        
+
+       
+
+        <div class="lower-year-group-buttons">
+
+            <div style="
+                margin-top: 30px;
+                height: 110px;
+                
+                vertical-align: top;
+                display: flex;
+                flex-direction: row;
+                align-items: stretch;
+                align-items: center;
+                justify-content: center;
+            ">
+
+                <a href="y9-button.html">
+                    <button class="y9-button">
+                        Year 9
+                    </button>
+                </a>
+
+                <a href="y10-button.html">
+                    <button class="y10-button">
+                        Year 10
+                    </button>
+                </a>
+
+                <a href="y11-button.html">
+                    <button class="y11-button">
+                        Year 11
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="upper-year-group-buttons">
+
+            <div style="
+                margin-top: 30px;
+                height: 110px;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            ">
+
+                <a href="y12-button.html">
+                    <button class="y12-button">
+                        Year 12
+                    </button>
+                </a>
+
+                <a href="y13-button.html">
+                    <button class="y13-button">
+                        Year 13
+                    </button>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="extras">
+
+            <div style="
+                margin-top: 30px;
+                height: 110px;
+               
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            ">
+
+                <a href="exam-stress-button.html">
+                    <button class="exam-button">
+                        Exam Stress
+                    </button>
+                </a>
+
+                <a href="how-to-revise-button.html">
+                    <button class="how-to-button">
+                        How to Revise
+                    </button>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="extras">
+
+            <div style="
+                margin-top: 30px;
+                height: 110px;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            ">
+
+                <a href="general-faq.html">
+                    <button class="general-faq">
+                        General FAQ
+                    </button>
+                </a>
+            </div>
+
+
+        </div>
+
+
+         <footer class="footer">
+            <p><strong>RevisionCat</strong></p>
+            <p>Created by Coral Scammell</p>
+            <p class="footer-sources">Sources: Information has been compiled from official exam 
+                boards, linked educational resources
+                and other referenced websites.</p>
+                
+            <p>External sources are credited throughout the website where applicable.</p>
+            <p>Copyright: All logos, icons and illustrations 
+            are owned and created by me.</p>
+            <p>© 2026 RevisionCat v1.0. All rights reserved.</p>
+            <p>Last updated: September 2026</p>
+
+            <a href="about-me.html">
+                <button class="about-me">
+                    INFO ABOUT ME & MY WEBSITE
+                </button>
+            </a>
+        </footer>
+
+    </body>
+</html>

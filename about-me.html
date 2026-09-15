@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About Me and My Website
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="buttons-hover-animation.css">
+
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="">
+
+        <style>
+
+             body {
+                margin: 0;
+                padding-top: 130px;
+                background-color: #f4affd;
+                font-family: Roboto, Arial;
+            }
+
+            .main {
+                background: white;
+                border: 2px solid #222;
+                border-radius: 15px;
+                padding: 30px;
+                margin: 30px 25px;
+
+                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .title {
+                font-size: 50px;
+                font-weight: 600;
+                color: #ec7efa;
+                text-decoration: underline;
+            }
+
+            .intro {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .intro1 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: center;
+                line-height: 1.6;
+                margin-bottom: 75px;
+            }
+
+            .quick-link-title {
+                font-weight: 600;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            h2,
+            .methods-title {
+                text-align: start;
+                font-size: 30px;
+                color: #34df4b;
+                scroll-margin-top: 150px;
+                margin-top: 70px;
+            }
+
+            .methods,
+            .tips,
+            .mistakes,
+            .timetable,
+            .motivation {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+
+            .technique-descriptions-end,
+            .night-before-end,
+            .fruits-link,
+            .during-revision-end,
+            .during-exam-end,
+            .overwhelmed {
+                padding-bottom: 50px;
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+            .fc-link-box,
+            .pomodoro-websites {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding-left: 30px;
+            }
+
+            .fc-link,
+            .revision-methods-link,
+            .tomato-link,
+            .flora-link,
+            .forest-link {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+                padding-left: 70px;
+            }
+
+            .methods-link,
+            .timetable-links,
+            .study-bunny-link {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            .fc-link:hover,
+            .revision-methods-link:hover,
+            .tomato-link:hover,
+            .flora-link:hover,
+            .forest-link:hover,
+            .methods-link:hover,
+            .timetable-links:hover,
+            .study-bunny-link:hover {
+                color: #b7ffc3;
+                text-decoration: underline;
+            }
+
+            .info-box{
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                gap:20px;
+
+                background:white;
+                padding:25px;
+                border-radius:15px;
+
+                box-shadow:0 4px 10px rgba(0,0,0,.1);
+                margin-bottom: 100px;
+            }
+
+            .info-item strong {
+                color: #00610d;
+            }
+
+            
+            .intro-title {
+                text-align: start;
+                font-size: 30px;
+                color: #ec7efa;
+                scroll-margin-top: 150px;
+            } 
+
+        
+            .questions {
+                text-align: start;
+            }
+
+            .intro {
+                text-align: start;
+            }
+
+            .skills-container,
+            .future-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 50px;
+                row-gap: 5px;
+                margin-bottom: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img class="logo" src="logo.png">
+            </div>
+
+            <div class="icons">
+                <a href="index.html">
+                    <img class="home-icon" src="revision-icons/home1.svg">
+                </a>
+                
+                <a href="y11-button.html">
+                    <img class="gcse-icon" src="revision-icons/book-icon.png">
+                </a>
+
+                <a href="y13-button.html">
+                    <img class="alevel-icon" src="revision-icons/cap-icon.png">
+                </a>
+                
+                <a href="exam-stress-button.html">
+                    <img class="stress-icon" src="revision-icons/cloud-icon.png">
+                </a>
+                
+                <a href="how-to-revise-button.html">
+                    <img class="how-to-icon" src="revision-icons/question-icon.png">
+                </a>
+               
+            </div>
+        </header>
+
+        <div class="main">
+            <p class="title">About Me!</p>
+            <p class="intro"> 
+                Hi! I'm Coral, the creator and developer of RevisionCat. Due to my love of 
+                computers and Computer Science, I decided I wanted to make a website. During the
+                summer of Year 11, after my exams, I taught myself HTML and CSS using a 6.5 hour
+                course on YouTube. Following that, I started creating RevisionCat on the 17th of 
+                July 2026.
+            </p>
+
+            <p class="intro1">
+                Currently, I am so proud of RevisionCat as it is something I planned
+                and created myself, and it was something I committed to as a long-term project. 
+                I hope to keep updating it in the future!
+            </p>
+
+            <div class="questions">
+                <p class="intro-title">
+                    Why did I want to create RevisionCat?
+                </p>
+
+                <p class="intro1">
+                    I wanted to create RevisionCat to help other students during exams. My hope
+                    is that my website can help revision seem less overwhelming and provide some 
+                    support and resources to students that may need it. 
+                    RevisionCat covers individual subjects to Managing Exam Stress and How to Revise, 
+                    as they were things that myself and/or my friends struggled with during GCSEs. This
+                    is also why I added a Microsoft Form  
+                    for students to anonymously submit any other questions they have. 
+                    I hope to review this regularly and update my website in the FAQ sections.
+                </p>
+
+                <p class="intro-title">
+                    About my website:
+                </p>
+
+                <p class="intro1">
+                    Everything has been created by me. I designed the logos and icons on IbisPaint,
+                    programmed everything myself using VSCode, and spent hours designing and 
+                    developing my website. I researched all information myself and wrote it into my 
+                    own words. Additionally, I avoided using AI (unless you count the Google AI overview).
+                    I'm hoping to continue updating it with new content, especially once I also learn
+                    JavaScript.
+
+                <p class="intro-title">
+                    Skills Demonstrated Through RevisionCat:
+                </p>
+
+                <div class="skills-container">
+                    <p class="intro">
+                        &#183; HTML and CSS,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Graphic Design,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Written Communication skills through writing all content,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Extensive research over a prolonged period,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Project Planning and Project Management,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Problem solving (debugging),
+                    </p>
+
+                    <p class="intro">
+                        &#183; Consistency through similar layouts and colour schemes,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Independent learning and application,
+                    </p>
+
+                    <p class="intro">
+                        &#183; User experience (icons),
+                    </p>
+
+                    <p class="intro">
+                        &#183; Responsive web design.
+                    </p>
+                </div>    
+
+                <p class="intro-title">
+                    Future Plans:
+                </p>
+
+                <div class="future-container">
+                    <p class="intro">
+                        &#183; More A-level content,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Dark mode,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Revision timetable creator/generator,
+                    </p>
+
+                    <p class="intro">
+                        &#183; Revision tracker?
+                    </p>
+                </div>
+
+                <div>
+
+                <p class="intro-title">
+                    My GCSE Options:
+                </p>
+
+                <div class="future-container">
+                    <p class="intro">
+                        &#183; English Literature
+                    </p>
+
+                    <p class="intro">
+                        &#183; English Language
+                    </p>
+
+                    <p class="intro">
+                        &#183; Maths
+                    </p>
+
+                    <p class="intro">
+                        &#183; Combined Science
+                    </p>
+
+                    <p class="intro">
+                        &#183; Computer Science
+                    </p>
+
+                    <p class="intro">
+                        &#183; Spanish
+                    </p>
+
+                    <p class="intro">
+                        &#183; Graphic Communication
+                    </p>
+
+                    <p class="intro">
+                        &#183; Business Studies
+                    </p>
+                    
+                </div>
+
+                <p class="intro-title">
+                    My Alevel Options:
+                </p>
+
+                <div class="future-container">
+                    <p class="intro">
+                        &#183; Business Studies
+                    </p>
+
+                    <p class="intro">
+                        &#183; Maths
+                    </p>
+
+                    <p class="intro">
+                        &#183; Spanish
+                    </p>
+
+                    <p class="intro">
+                        &#183; EPQ (cybersecurity?)
+                    </p>
+                    
+                    
+                </div>
+
+            </div>
+        </body>
+</html>
