@@ -1,0 +1,141 @@
+
+
+/*red buttons*/ 
+
+.red-buttons {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffbcbc;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.red-buttons::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #F87171;
+    transition: height 0.3s ease;
+    z-index: -1
+}
+
+.red-buttons:hover::before {
+    height: 100%;
+}
+
+.red-buttons:hover {
+    color: white;
+}
+
+/*yellow buttons*/
+
+.yellow-buttons {
+    position: relative;
+    overflow: hidden;
+    background-color:  #ffe49f;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.yellow-buttons::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #FBBF24;
+    transition: height 0.3s ease;
+    z-index: -1
+}
+
+.yellow-buttons:hover::before {
+    height: 100%;
+}
+
+.yellow-buttons:hover {
+    color: white;
+}
+
+/*green buttons*/
+
+.green-buttons {
+    position: relative;
+    overflow: hidden;
+    background-color:  #b7ffc3;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.green-buttons::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color:  #34df4b;
+    transition: height 0.3s ease;
+    z-index: -1
+}
+
+.green-buttons:hover::before {
+    height: 100%;
+}
+
+.green-buttons:hover {
+    color: white;
+}
+
+/*blue buttons*/
+
+.blue-buttons {
+    position: relative;
+    overflow: hidden;
+    background-color: #c8ddfc;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.blue-buttons::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #71a7f8;
+    transition: height 0.3s ease;
+    z-index: -1
+}
+
+.blue-buttons:hover::before {
+    height: 100%;
+}
+
+.blue-buttons:hover {
+    color: white;
+}
+
+.red-buttons:active,
+.yellow-buttons:active,
+.green-buttons:active,
+.blue-buttons:active {
+    transform: rotateY(180deg);
+    transition: 0.5s
+}
