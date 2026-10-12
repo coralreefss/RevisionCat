@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VHTCLP9RKN"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-VHTCLP9RKN');
+        </script>
+        <title>
+            A-Level Design and Technology
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="../buttons-hover-animation.css">
+
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="website-info.css">
+
+        <style>
+
+            body {
+                margin: 0;
+                padding-top: 130px;
+                background-color: #ffe49f;
+                font-family: Roboto, Arial;
+            }
+
+            .main {
+                background: white;
+                border: 2px solid #222;
+                border-radius: 15px;
+                padding: 30px;
+                margin: 30px 25px;
+
+                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .title {
+                font-size: 50px;
+                font-weight: 600;
+                color:  #FBBF24;
+                text-decoration: underline;
+            }
+
+            .intro {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+            .intro1 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .quick-link-title {
+                font-weight: 600;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            .contents {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .contents a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .contents a:hover {
+                color: #ffe49f;
+                text-decoration: underline;
+            }
+
+
+
+            .DT-websites {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 120px;
+                width: fit-content;
+                margin: 0 auto;
+                padding: 40px 60px;
+                width: fit-content;
+                margin: 30px auto;
+            }
+
+            .DT-websites a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .DT-websites a:hover {
+                color: #ffe49f;
+                text-decoration: underline;
+            }
+
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            .website-table{
+                width:100%;
+                border-spacing:0 20px;
+            }
+
+            .website-name{
+                width:350px;
+                font-weight:bold;
+                font-size:20px;
+                vertical-align:top;
+                padding-right:20px;
+            }
+
+            .website-table td{
+                padding:10px;
+            }
+
+            h2,
+            .methods-title,
+            .faq-question,
+            .top3-title,
+            .youtube-title,
+            .tips-title {
+                text-align: start;
+                font-size: 30px;
+                color:  #FBBF24;
+                scroll-margin-top: 150px;
+                margin-top: 70px;
+            }
+
+            .methods,
+            .tips,
+            .mistakes,
+            .timetable,
+            .motivation,
+            .resources,
+            .faq-answer,
+            .top3 {
+                font-size: 25px;
+                max-width: 2000px;
+                text-align: start;
+                line-height: 1.6;
+            }
+
+
+            .spec-link,
+            .website-link,
+            .pp-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+                padding-left: 70px;
+            }
+
+            .top3-links,
+            .youtube-links {
+                color: black;
+                text-decoration: underline;
+                transition: color 0.2s;
+                font-size: 24px;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            .spec-link:hover,
+            .website-link:hover,
+            .top3-links:hover,
+            .youtube-links:hover,
+            .pp-links:hover {
+                color: #ffe49f;
+                text-decoration: underline;
+            }
+
+            .block {
+                padding-bottom: 50px;
+            }
+
+            .website-info {
+                font-size: 20px;
+                max-width: 1000px;
+                text-align: start;
+                line-height: 1.6;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img class="logo" src="../logo.png">
+            </div>
+
+            <div class="icons">
+                <a href="../index.html">
+                    <img class="home-icon" src="../revision-icons/home1.svg">
+                </a>
+                
+                <a href="../y11-button.html">
+                    <img class="gcse-icon" src="../revision-icons/book-icon.png">
+                </a>
+
+                <a href="../y13-button.html">
+                    <img class="alevel-icon" src="../revision-icons/cap-icon.png">
+                </a>
+                
+                <a href="../exam-stress-button.html">
+                    <img class="stress-icon" src="../revision-icons/cloud-icon.png">
+                </a>
+                
+                <a href="../how-to-revise-button.html">
+                    <img class="how-to-icon" src="../revision-icons/question-icon.png">
+                </a>
+
+                <a href="../alevel-subjects/al-dt.html">
+                    <img class="how-to-icon" src="../revision-icons/up-arrow.png">
+                </a>
+               
+            </div>
+        </header>
+
+        <div class="main">
+            <p class="title">A-Level Design and Technology</p>
+
+            <p class="intro1">
+                    Below, you can find a range of resources to help you revise for your A-Level DT exams. 
+                    These include specifications, top tips and useful websites you could use!
+            </p>
+
+             <p class="quick-link-title"> Quick links: </p>
+
+
+            <div class="contents">
+
+                <a href="#spec">Specifications</a>
+                <a href="#websites">Websites</a>
+                
+
+                <a href="#top-3">Top 3 Resources</a>
+                <a href="#youtube">YouTube Channels</a>
+                
+
+                <a href="#tips">Top Tips</a>
+                <a href="#grade-9-tips">A* Tips</a>
+
+                <a href="#past-papers">Past Papers</a>
+                
+
+            </div>
+
+            <div class="block">
+                <h2 id="spec">Specifications:</h2>
+                <p class="methods">
+                    Below, you can find the specifications for the A-Level DT course. 
+                    You can find the specification for your exam board by clicking the link below!
+                    The specification contains all the information you could be tested on. Use this as
+                    a checklist (for all the information you should know for the exams).
+                    If it's not on the specification, you don't need to know it!
+                </p>
+
+                <p class="methods">
+                    Please also check your exact specification with your teacher, as some courses may have many
+                    different specifications with slightly differing content.
+                </p>
+
+                <div class="specification-links">
+                        <a class="spec-link" href="https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/specification" target="_blank">
+                            AQA Specification
+                        </a>
+
+                        <a class="spec-link" href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Design%20and%20Technology%20-%20Product%20Design/2017/specification-and-sample-assessments/Pearson_Edexcel_Level_3_GCE_in_Design_and_Technology_Specification_issue2.pdf" target="_blank">
+                            Edexcel Specification
+                        </a>
+
+                        <a class="spec-link" href="https://www.ocr.org.uk/images/304609-specification-accredited-a-level-gce-design-and-technology-h404-h406.pdf" target="_blank">
+                            OCR Specification
+                        </a>
+
+                        <a class="spec-link" href="https://www.eduqas.co.uk/media/kclpvixc/a-level-design-and-technology-specification.pdf" target="_blank">
+                            Educas Specification
+                        </a>
+            </div>
+
+
+            <div class="block">
+                <h2 id="websites">Useful Websites:</h2>
+                <p class="intro">
+                    Below, you can find a few different websites that may be beneficial
+                    for A-Level DT revision.
+                </p>
+
+                <table class="website-table">
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://aleveldt.com/" target="_blank">
+                               A Level DT
+                            </a>
+                        </td>
+
+                        <td class="website-info">
+                            Revision notes and exam practice specifically for AQA A-level Product Design.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.jamesdysonfoundation.com/" target="_blank">
+                                James Dyson Foundation
+                            </a>
+                        </td>
+
+                        <td class="website-info">
+                            Engineering challenges and design activities that develop creative problem-solving.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://www.makeuk.org/" target="_blank">
+                                Make UK
+                            </a>
+                        </td>
+
+                        <td class="website-info">
+                            Information about modern manufacturing, industrial technology and UK engineering.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://designandtechbase.com/" target="_blank">
+                                DT Base
+                            </a>
+                        </td>
+
+                        <td class="website-info">
+                           Handmade revision notes and key terminology tailored to AQA, Edexcel and OCR A-Level DT courses.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="website-name">
+                            <a class="website-link" href="https://studyrocket.co.uk/revision/a-level-design-and-technology-aqa" target="_blank">
+                                Study Rocket
+                            </a>
+                        </td>
+
+                        <td class="website-info">
+                            Free revision notes tailored to AQA. They also have an app that contains flashcards and quizzes for 
+                            specific topics and subjects.
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div class="block">
+                <h2 id="top-3">Top 3 Resources:</h2>
+                <p class="intro">
+                    Below, you can find my top 3 resources for A-Level Design and Technology revision. These are
+                    resources I found through research as I did not take DT at A-Level myself.
+                    You may find other resources that are more useful for your revision!
+                </p>
+
+                <p class="top3-title">
+                    1. Your exam board website
+                </p>
+
+                <p class="top3">
+                    Your exam board's website is best for knowing what you're actually being examined on.
+                    Use your specification, past papers, mark schemes and examiner reports. 
+                    AQA usually provides example student answers with examiner commentaries too.
+                </p>
+
+                <p class="top3-title">
+                    2. A Level DT
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://craigndave.org/ocr-a-level-h046-h446-videos/" target="_blank">A Level DT</a>
+                     is particularly useful for AQA Product Design students, with revision notes and past paper 
+                     resources organised around the course. The website is free to use and also has a revision tracker and quiz mode!
+                </p>
+
+                <p class="top3-title">
+                    3. DT Base
+                </p>
+
+                <p class="top3">
+                    <a class="top3-links" href="https://designandtechbase.com/" target="_blank">DT Base</a>
+                        is great for DT revision across AQA, Edexcel and OCR. It provides revision notes, questions, flashcards, past papers, and even
+                        coursework A* examples and advice. They also offer tutoring if you're willing to pay for it.
+                </p>
+            </div>
+
+
+            <div class="block">
+                <h2 id="youtube">YouTube Channels:</h2>
+                <p class="intro">
+                    If you're
+                    looking for some Youtube channels to help you revise, 
+                    below are a few I found through research for the A-Level DT exams.
+                </p>
+
+                <p class="youtube-title">
+                    1. Product Design Online
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@ProductDesignOnline" target="_blank">
+                     Product Design Online
+                    </a>
+                    is excellent for product modelling, CAD and design workflows. It also has a range of videos covering 3D printing, 
+                    a software called Fusion360 and how to use it, including tips and tricks for designing and modelling. 
+                </p>
+
+                <p class="youtube-title">
+                    2. The Engineering Mindset
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@EngineeringMindset" target="_blank">
+                        The Engineering Mindset
+                    </a>
+                    with almost 5 million subscibers, is excellent for understanding the engineering and manufacturing side of DT. 
+                    It has a huge range of videos covering multiple electrical systems and the basics of engineering. It may not be as 
+                    relevant to your course, but definitely worth checking out if you're interested in engineering or 
+                    want to understand the theory behind it.
+                </p>
+
+                <p class="youtube-title">
+                    3. Mitul Does DT
+                </p>
+
+                <p class="intro">
+                    <a class="youtube-links" href="https://www.youtube.com/@MitulDoesDT" target="_blank">
+                     Mitul Does DT
+                    </a>
+                    is made by a DT student at university. There is quite a lot of content and it is great for "last minute tips"
+                    and understadnding the NEA work. He also walks through some past papers and has created hour long study session videos.
+                    From my research, I would really recommend him.
+                </p>
+            </div>
+
+            <div class="block">
+                <h2 id="tips">Top Tips:</h2>
+
+                <p class="intro">
+                    &#183; Learn manufacturing processes properly. Know how each process works, which materials it suits, 
+                    the equipment involved and whether it is appropriate for batch, mass or one-off production.
+                </p>
+
+                <p class="intro">
+                    &#183; Make comparison tables. Compare materials and processes by cost, strength, durability, finish, accuracy, production volume 
+                    and environmental impact.
+                </p>
+
+                <p class="intro">
+                    &#183; Understand CAD and CAM. Know their advantages, limitations and effects on accuracy, repeatability, productivity and cost.
+                </p>
+
+                <p class="intro">
+                    &#183; Keep a DT vocabulary bank of key terminology (and definitions).
+                </p>
+
+                <p class="intro">
+                    &#183; Practise technical drawings. Develop confidence with orthographic drawings, isometric sketches, exploded diagrams and 
+                    annotations where relevant to your course.
+                </p>
+
+                <p class="intro">
+                    &#183; Use calculations regularly. Practise any mathematical principles required by your specification, including tolerances, 
+                    dimensions and relevant mechanical or material calculations.
+                </p>
+
+                <p class="intro">
+                    &#183; For your NEA, document the process. Record design decisions, research, testing, feedback and changes as you go.
+                </p>
+
+                <p class="intro">
+                    &#183; Understand before memorising. If you understand why something happens, the details become much easier to retain.
+                </p>
+
+                <p class="intro">
+                    &#183; Always mark or ask your teachers to mark your practice questions. 
+                    If you went wrong, understand why and learn from your mistakes.
+                </p>
+
+            </div>
+
+
+
+
+            <div>
+                <h2 id="grade-9-tips">A* Tips:</h2>
+
+                <p class="intro">
+                    Below, you can find a few tips to help you achieve an
+                     A or A* in DT!
+                </p>
+
+                <p class="intro">
+                    &#183; Justify every technical decision. Don't simply state that aluminium is suitable; explain how its specific properties meet the product's 
+                    requirements and why alternatives may be less suitable.
+                </p>
+
+                <p class="intro">
+                    &#183; Use precise terminology.
+                </p>
+
+                <p class="intro">
+                    &#183; Consider the scale of production. A manufacturing method suitable for a prototype might be inefficient or too expensive for mass production.
+                </p>
+
+                <p class="intro">
+                    &#183; Link properties to performance. Explain how material choice affects weight, durability, safety, cost, appearance and product lifespan.
+                </p>
+
+                <p class="intro">
+                    &#183; Practise longer written answers.
+                </p>
+
+                <p class="intro">
+                    &#183; Test your own algorithms. Try normal cases, boundary cases and invalid inputs.
+                </p>
+
+                <p class="intro">
+                    &#183; Practise writing high-scoring answers under time pressure. 
+                    At A* level, knowing the DT isn't enough if you can't communicate it quickly and precisely.
+
+                </div>
+
+            <div class="block">
+                <h2 id="past-papers">Past Papers:</h2>
+
+                <p class="intro">
+                    Below, I've relinked the websites to access past papers and mark schemes 
+                    for your exam board. These are the best resources to use to practice exam 
+                    questions. 
+                </p>
+
+                <a class="pp-links" href="https://revisionworld.com/" target="_blank">RevisionWorld</a>
+                <a class="pp-links" href="https://www.savemyexams.com/" target="_blank">Save My Exams</a>
+                <a class="pp-links" href="https://www.physicsandmathstutor.com/" target="_blank">Physics & Maths Tutor</a>
+                <a class="pp-links"  href="https://latestexampapers.com/" target="_blank">Latest Exam Papers</a>
+
+            
+
+            
